@@ -1,0 +1,29 @@
+{
+  "name": "cheapestesla",
+  "version": "0.0.1",
+  "description": "find the cheapest tesla for sale online",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WillHK/cheapestesla.git"
+  },
+  "keywords": [
+    "tesla"
+  ],
+  "author": "Will Haeck",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/WillHK/cheapestesla/issues"
+  },
+  "homepage": "https://github.com/WillHK/cheapestesla#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "cors": "^2.8.5",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.14"
+  }
+}
